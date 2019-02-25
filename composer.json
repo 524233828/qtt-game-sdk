@@ -1,0 +1,26 @@
+{
+  "name": "jose-chan/qtt-game-sdk",
+  "description": "趣头条游戏中心sdk",
+  "type": "library",
+  "keywords": ["趣头条", "sdk"],
+  "homepage": "https://github.com/524233828/qtt-game-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JoseChan",
+      "email": "524233828@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoseChan\\QttGame\\": "src/"
+    }
+  }
+}
